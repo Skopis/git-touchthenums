@@ -8,6 +8,7 @@ function cleanBoard() {
     var tds = document.querySelectorAll('td.clicked');
     for (var i=0; i<tds.length; i++) {
         tds[i].classList.remove('clicked');
+        console.log(i)
     }
 }
 
