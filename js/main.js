@@ -20,7 +20,6 @@ function updateNextNum() {
 }
 function updateTime() {
     var elSpanTimer = document.getElementById('spanTimer');
-            
     elSpanTimer.innerText = gTimePassed / 10;
 }
 
